@@ -9,7 +9,7 @@ from smolagents import CodeAgent, DuckDuckGoSearchTool, LiteLLMModel
 litellm._turn_on_debug()
 
 # ✅ Set Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDJGAgQ-VLc3dE2kEV9wp2EyirnitLvk1w"
+os.environ["GOOGLE_API_KEY"] = "xfgui-VLc3dE2kEV9wp2EyirnitLvk1w"
 api_key = os.getenv("GOOGLE_API_KEY")
 
 if not api_key:
